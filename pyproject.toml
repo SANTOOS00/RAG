@@ -1,0 +1,15 @@
+[project]
+name = "rag"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "SANTOOS00", email = "mohamederraiss@icloud.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "fire>=0.7.1",
+    "pydantic>=2.13.5",
+    "tqdm>=4.70.1",
+]
+
