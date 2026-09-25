@@ -11,6 +11,8 @@ run:
 
 
 clean:
-	rm -rf .venv
 	find . -type d -name __pycache__ -exec rm -r {} +
-	
+
+
+run_test:
+	$(UV) run python -m test_project
