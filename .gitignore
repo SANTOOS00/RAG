@@ -1,4 +1,4 @@
-data/*
+data
 .venv
 .python-version
 en.subject.pdf
