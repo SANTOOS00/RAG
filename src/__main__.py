@@ -1,6 +1,10 @@
-def main() -> None:
-    pass
 
+from fire import Fire
+from rag import RAG
+from custem_error import RagError
 
 if __name__ == "__main__":
-    main()
+    try:
+        Fire(RAG)
+    except RagError as e:
+        e.print()

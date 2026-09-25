@@ -3,7 +3,7 @@ UV = uv
 PROJECT = src
 
 install:
-	...
+	unzip ./data/raw/vllm-0.10.1.zip
 
 
 run:
@@ -11,6 +11,7 @@ run:
 
 
 clean:
+	rm -rf ./data/raw/vllm-0.10.1
 	find . -type d -name __pycache__ -exec rm -r {} +
 
 

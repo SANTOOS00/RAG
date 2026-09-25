@@ -1,4 +1,11 @@
-data
-.venv
+# Raw data
+data/raw/vllm-0.10.1.zip
+
+# Virtual environment
+.venv/
+
+# Python version file
 .python-version
+
+# PDF file
 en.subject.pdf
